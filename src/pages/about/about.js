@@ -38,13 +38,13 @@ class About extends Component {
               </p>
             </Col>
             <Col xl={4} lg={4} md={4} sm={4}>
-              <h3 className="display-4 custom-heading subheading">Meet the Chefs</h3>
+              <h3 className="display-4 custom-heading subheading">Meet the Chef</h3>
               <p className="text-chef">
                 Here at Mirna’s Café our chefs work tirelessly with the help of our specialized kitchen staff to prepare the finest Italian
                 and Mediterranean food for our valued customers.
               </p>
               <p>
-                Pictured here is Chef Stock who has been with Mirna's Café for several years. Here he is preparing some of our fried
+                Pictured here is Chef Stock, who has been with Mirna's Café for several years. Here he is preparing some of our fried
                 calamari for our customers.
               </p>
             </Col>
