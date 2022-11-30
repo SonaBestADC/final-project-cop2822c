@@ -1,0 +1,24 @@
+@import "../../variables";
+
+.about-container{
+    background-color: $custom-background-off-white;
+    border-radius:1%;
+    overflow:hidden;
+}
+.text-chef{
+    text-align: justify;
+    
+}
+.image-chef{
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    bottom: 20px;
+    height: 350px;
+    width: 250px;
+    border-radius:2%;
+}
+.subheading{
+    font-size: 40px
+}

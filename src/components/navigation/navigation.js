@@ -9,15 +9,15 @@ export default class Navigation extends Component {
     super();
     this.navInfo = [
       {
-        to: "./About",
+        to: "../final-project-cop2822c/About",
         content: "About Us",
       },
       {
-        to: "./Menu",
+        to: "../final-project-cop2822c/Menu",
         content: "Our Menu",
       },
       {
-        to: "./Contact",
+        to: "../final-project-cop2822c/Contact",
         content: "Contact Us",
       },
     ];
@@ -26,7 +26,7 @@ export default class Navigation extends Component {
   render() {
     return (
       <Navbar className={`component-nav sticky-top`} collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <NavLink className="navbar-brand" to="./">
+        <NavLink className="navbar-brand" to="../final-project-cop2822c">
           <img src={logo} alt="Mirna's Cafe logo" />
         </NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

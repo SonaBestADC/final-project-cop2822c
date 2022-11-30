@@ -19,7 +19,7 @@ class Error extends Component {
               </p>
               <p className="error-text">
                 To go back to the home page please click this&nbsp;
-                <Link className="custom-anchor" to="/">
+                <Link className="custom-anchor" to="../final-project-cop2822c">
                   link
                 </Link>
               </p>

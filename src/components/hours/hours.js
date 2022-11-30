@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Col, Container, Row } from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
-import HourPart from "../hourPart/hourPart";
+import ListGroupItem from "../listGroupItem/listGroupItem";
+
 
 class Hours extends Component {
   constructor() {
@@ -24,9 +24,10 @@ class Hours extends Component {
       <ListGroup>
         {this.state.openTimes.map(({ hours }, index) => {
           return (
-            <ListGroup.Item>
-              {hours}
-            </ListGroup.Item>
+            // <ListGroup.Item>
+            //   {hours}
+            // </ListGroup.Item>
+            <ListGroupItem information={hours} key={index}/>
           );
         })}
       </ListGroup>
