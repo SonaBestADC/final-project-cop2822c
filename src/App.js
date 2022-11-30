@@ -15,7 +15,7 @@ function App() {
         <Route path="final-project-cop2822c/Contact" element={<Contact/>}/>
         <Route path="final-project-cop2822c/Menu" element={<Menu/>}/>
         <Route path="final-project-cop2822c/About" element={<About/>}/>
-        <Route path="final-project-cop2822c/*" element={<Error/>}/>
+        <Route path="final-project-cop2822c/Error" element={<Error/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
