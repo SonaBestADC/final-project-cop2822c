@@ -1,0 +1,12 @@
+@import "../../variables";
+.component-nav {
+  height: 58px;
+  padding-bottom: 10px;
+  background-color: $gray-shadow-custom !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .component-nav {
+    height: auto;
+  }
+}

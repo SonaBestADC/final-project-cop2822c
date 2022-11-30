@@ -1,0 +1,68 @@
+@import "variables";
+
+:root {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.container {
+  min-height: 85vh;
+}
+.custom-heading {
+  color: $orange-custom;
+}
+
+.bg-custom {
+  background-color: $gray-custom;
+  color: $white;
+}
+
+.active {
+  color: $orange-light-custom !important;
+}
+
+.active-custom.active {
+  background-color: $orange-light-custom !important;
+}
+
+.custom-anchor {
+  color: $orange-custom;
+}
+
+.custom-anchor:hover {
+  color: $white;
+  text-decoration: none;
+}
+
+.custom-anchor:active {
+  color: $orange-light-custom;
+}
+
+input:focus,
+textarea:focus {
+  border-color: $orange-custom !important;
+  box-shadow: 0 0 0 0.2rem $orange-custom-shadow !important;
+}
+.btn{
+  background-color: $orange-light-custom !important;
+  border-color: $orange-custom-shadow-light !important;
+}
+.btn:hover{
+  background-color: $orange-custom-shadow-light !important;
+  border-color: $orange-custom-shadow !important;
+}
+.btn.btn-primary:focus{
+  background-color: $orange-custom-shadow-light !important;
+  border-color: $orange-custom-shadow !important;
+  box-shadow: 0 0 0 0.2rem $orange-custom-shadow !important;
+}
+.btn.btn-primary:active{
+  background-color: $orange-custom-shadow-light !important;
+  border-color: $orange-custom-shadow !important;
+  box-shadow: 0 0 0 0.2rem $orange-custom-shadow !important;
+}
