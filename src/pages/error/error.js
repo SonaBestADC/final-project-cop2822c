@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import "./error.scss";
 
+
 class Error extends Component {
   render() {
     return (
@@ -23,10 +24,10 @@ class Error extends Component {
                   link
                 </Link>
               </p>
+              <p className="error-text">The page you were trying to reach hasn't been implemented yet.</p>
             </div>
           </Container>
         </div>
-        <Footer />
       </div>
     );
   }

@@ -27,9 +27,9 @@ class About extends Component {
           <Row>
             <h2 className="display-4 custom-heading">About Us</h2>
             <hr />
-            <Col xl={4} lg={4} md={4} sm={4}>
+            <Col xl={5} lg={5} md={5} sm={5}>
               <h3 className="display-4 custom-heading subheading">Who we are</h3>
-              <p>
+              <p className="text-who">
                 We are Mirna’s Restaurant & Grill! We’ve been serving authentic Italian and Mediterranean Cuisine since 1992 to all of those
                 in Montgomery County. From our appetizers to entrees, sandwiches to desserts, our entire menu is home-made with only the
                 freshest of ingredients. We offer a lavish and expansive menu with many of our signature dishes! Diners should try our
@@ -43,12 +43,12 @@ class About extends Component {
                 Here at Mirna’s Café our chefs work tirelessly with the help of our specialized kitchen staff to prepare the finest Italian
                 and Mediterranean food for our valued customers.
               </p>
-              <p>
+              <p className="text-chef">
                 Pictured here is Chef Stock, who has been with Mirna's Café for several years. Here he is preparing some of our fried
                 calamari for our customers.
               </p>
             </Col>
-            <Col xl={4} lg={4} md={4} sm={4}>
+            <Col xl={3} lg={3} md={3} sm={3}>
               <img className="image-chef" src={chefStock} />
             </Col>
           </Row>

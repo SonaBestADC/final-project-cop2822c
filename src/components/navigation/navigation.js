@@ -20,6 +20,18 @@ export default class Navigation extends Component {
         to: "../final-project-cop2822c/Contact",
         content: "Contact Us",
       },
+      {
+        to: "../final-project-cop2822c/Error",
+        content: "Events",
+      },
+      {
+        to: "../final-project-cop2822c/Error",
+        content: "Reservations",
+      },
+      {
+        to: "../final-project-cop2822c/Error",
+        content: "Admin",
+      },
     ];
   }
 
