@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
+import "./imageSlider.scss";
 
 export default class ImageSlider extends Component {
   constructor() {
@@ -9,26 +10,31 @@ export default class ImageSlider extends Component {
       index: 0,
       imageItems: [
         {
-          src: "https://wallpapercave.com/wp/wp3199034.jpg",
-          title: "Blue screen title",
-          description: "this is blue and quote",
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHp371JSaLyRU5522gQpgnViUJyKA2SSLslg&usqp=CAU",
+          title: "Mirna's Cafe interior",
+          description: "",
         },
         {
           src:
-            "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solidbackgrounds.com%2Fimages%2F1920x1080%2F1920x1080-red-solid-color-background.jpg&f=1&nofb=1",
-          title: "Red screen title",
-          description: "this is red and quote",
+            "https://www.mirnascafe.com/wp-content/uploads/2017/03/IMG_1570.jpg",
+          title: "Private parties",
+          description: "We offer a wide range of choices when it comes to private parties",
         },
         {
           src:
-            "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solidbackgrounds.com%2Fimages%2F1920x1080%2F1920x1080-fluorescent-pink-solid-color-background.jpg&f=1&nofb=1",
-          title: "Pink screen title",
-          description: "this is pink and quote",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCsAygqQqxFGitGVl_29XVXh_j-b3T8OlRAA&usqp=CAU",
+          title: "",
+          description: "",
         },
         {
-          src: "https://www.solidbackgrounds.com/images/1920x1080/1920x1080-black-solid-color-background.jpg",
-          title: "Black screen title",
-          description: "this is black and quote",
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ZngAH_uJ5h6QS0Xy8Q6oxXaRJmqlKYrj5g&usqp=CAU",
+          title: "Mirna's Cafe Logo",
+          description: "",
+        },
+        {
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnQqCH3xCknwIOgixzwNLtroS_XxduUOx3dA&usqp=CAU",
+          title: "",
+          description: "",
         },
       ],
     };
@@ -46,8 +52,8 @@ export default class ImageSlider extends Component {
       <Carousel className="mb-2 mt-2" activeIndex={index} onSelect={this.handleSelect}>
         {this.state.imageItems.map((image, index2) => {
           return (
-            <Carousel.Item interval={7000} key={index2}>
-              <img className="d-block w-100" src={image.src} alt={image.description} />
+            <Carousel.Item interval={7000} key={index2} >
+              <img className="d-block w-100 carousel-item" src={image.src} alt={image.description} />
               <Carousel.Caption>
                 <h5>{image.title}</h5>
                 <p>{image.description}</p>
